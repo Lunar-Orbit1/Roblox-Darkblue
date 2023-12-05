@@ -1,0 +1,87 @@
+:root{
+    --Primary:#040716;
+    --Secondary: #111525;
+    --Tertiary: #171c30;
+}
+
+/* Main body background */
+body{
+    background-color: var(--Primary) !important;
+}
+
+/*Main home container*/
+.row.home-container, container-main{
+    background-color: #111525 !important;
+}
+
+/*Main centeral content*/
+.content{
+    background-color: #111525 !important;
+    padding: 10px !important;
+    margin-top: 20px !important;
+     border-radius: 12px;
+}
+
+/*Sidebar, headers and footers*/
+.dark-theme .rbx-left-col, .container-fluid, .container-footer, .dark-theme.btr-profile .btr-games-list .btr-game-button{
+    background-color: #111525 !important;
+}
+
+/*Tabs on profile and scrolling menus */
+.dark-theme .section-content, .dark-theme .rbx-tabs-vertical .category-tabs .menu-vertical{
+    background-color: var(--Tertiary) !important;
+    border-radius: 10px;
+}
+
+/*asset previews, I.E avatar items*/
+.dark-theme .thumbnail-2d-container, .dark-theme .asset-thumb-container {
+    background-color: var(--Tertiary) !important;
+}
+
+/*Badge containers*/
+.dark-theme .stack .stack-list .stack-row{
+    background-color: var(--Tertiary) !important;
+}
+
+/*Server lists / friend cards*/
+.dark-theme .stack .card-list .card-item{
+     background-color:var(--Secondary) !important;
+    border-radius:10px;
+}
+.avatar-card-content{
+    background-color:var(--Tertiary) !important;
+}
+
+/*Horizontal tabs, I.E the server/store page*/
+.dark-theme .rbx-tabs-horizontal .nav-tabs, .rbx-tab-heading{
+    background-color:var(--Tertiary) !important;
+    border-radius:10px !important;
+}
+
+/*Vertical menus*/
+.dark-theme .menu-vertical{
+    background-color:var(--Tertiary) !important;
+}
+
+/*Chat box stuff*/
+.dark-theme .chat-container .chat-main .chat-header{
+    background-color: var(--Tertiary) !important;
+}
+.chat-friends, .dark-theme .dialogs .dialog-container .dialog-body{
+    background-color: var(--Secondary) !important;
+}
+
+/*Popup/dropdown menus*/
+.dark-theme .dropdown-menu, .arrow, .dark-theme .menu-vertical .menu-option .menu-secondary-option.active, .dark-theme .menu-vertical .menu-option .menu-secondary-option:active{
+    background-color: var(--Secondary) !important;
+    border-bottom-color: var(--Secondary) !important;
+}
+/*More dropdown menu stuff*/
+.dark-theme .menu-vertical .menu-option .menu-secondary-option{
+    background-color: var(--Tertiary) !important;
+}
+
+.border-bottom.place-container{
+    background-color:var(--Tertiary) !important;
+}
+
